@@ -21,7 +21,6 @@
   ruby-books:
     - '9780596516178'
     - '9780596002145'
-    - '9784873113944'
     - '9784756132543'
     - '9784274064616'
     - '9784873110233'
@@ -71,15 +70,13 @@
   portraits:
     - 'http://iddy.jp/userphoto/5baa27c3da176d038ce96ca4baacc7b1c2a66a0f/me96x96s.jpg'
   services:
-    - twitter: akira
-    - friendfeed: arika
-    - iddy: arika
-    - mixi: 1549
+    twitter: akira
+    friendfeed: arika
+    iddy: arika
+    mixi: 1549
   ruby-books:
-    - '9784774127682'
     - '9784274064616'
     - '9784900813250'
-    - '9784756130150'
 - account: akiyoshi
   name:
     - 秋吉
@@ -125,10 +122,6 @@
   ruby-books:
     - '9781934356081'
     - '9781934356166'
-    - '9780201616224'
-    - '9780977616671'
-    - '9780974514017'
-    - '9780974514000'
 - account: davidflanagan
   name:
     - David Flanagan
@@ -140,7 +133,6 @@
   portraits:
     - 'http://www.oreillynet.com/javascript/2001/12/04/graphics/david_flanagan_1201.jpg'
   ruby-books:
-    - '9780596101992'
     - '9780596516178'
 - account: dblack
   name:
@@ -153,7 +145,7 @@
   portraits:
     - 'http://www.infoq.com/resource/articles/coming-from-ruby/en/smallimage/davidblack.jpg'
   ruby-books:
-    - '0321509242'
+    - '9780321509246'
     - '9781932394696'
     - '9781933988474'
     - '9781933988658'
@@ -191,8 +183,10 @@
   sites:
     - url: 'http://www.w3.org/People/D%C3%BCrst/'
       lang: en
+      title: 'Martin Dürst '
     - url: 'http://www.sw.it.aoyama.ac.jp/D%C3%BCrst/'
       lang: en
+      title: 'Martin J. Dürst'
 - account: eban
   name:
     - わたなべひろふみ
@@ -252,6 +246,8 @@
 - account: jeg2
   name:
     - James Edward Grey II
+  nick:
+    - jeg2
   sites:
     - title: Shades of Gray
       url: 'http://blog.grayproductions.net/'
@@ -360,6 +356,7 @@
     - Kouhei Sutou
   sites:
     - url: 'http://pub.cozmixng.org/~kou/archives/'
+      title: '~kou'
   portraits:
     - 'http://www.ogis-ri.co.jp/otc/hiroba/others/OORing/img/pic39_1.jpg'
   ruby-books:
@@ -408,7 +405,7 @@
       lang: en
       feed: 'http://www.ntecs.de/blog/index.rdf'
   services:
-    - github: mneumann
+    github: mneumann
 - account: nagai
   name:
     - 永井秀利
@@ -625,6 +622,7 @@
   services:
     twitter: takano32
     friendfeed: takano32
+    facebook: 1077578262
     mixi: 1233682
     github: takano32
 - account: tadf
@@ -701,7 +699,7 @@
 - account: wew
   name:
     - William Webber
-  site:
+  sites:
     - title: "William Webber's Home Page"
       url: 'http://www.williamwebber.com/'
       lang: en

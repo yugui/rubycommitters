@@ -1,0 +1,115 @@
+<%# -*- coding: UTF-8 -*-%>
+<% require 'yaml' -%>
+<% require 'amazon-image-fetcher' -%>
+<% require 'image_size' -%>
+<% require 'open-uri' -%>
+<% include ERB::Util %>
+<% 
+  $stderr.print 'type your amazon associate id: '
+  key = $stdin.gets.chomp
+  configure_ecs key
+%>
+<% committers = YAML.load_file('ruby-committers.yml') -%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+ "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html
+  xml:lang="ja"
+  xmlns="http://www.w3.org/1999/xhtml"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.w3.org/MarkUp/SCHEMA/xhtml11.xsd">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="generator" content="<%= __FILE__ %>" />
+    <title>The List of Ruby Committers</title>
+  </head>
+  <body>
+    <h1>The List of Ruby Committers</h1>
+    <table>
+      <thead>
+	<tr>
+	  <th colspan="3">identifiers</th>
+	  <th colspan="2">names</th>
+	  <th rowspan="2">sites</th>
+	  <th colspan="5">channels</th>
+	</tr>
+	<tr>
+	  <th>portrait</th>
+	  <th>book</th>
+	  <th>account</th>
+	  <th>names</th>
+	  <th>nicks</th>
+	  <th>twitter</th>
+	  <th>friendfeed</th>
+	  <th>github</th>
+	  <th>facebook</th>
+	  <th>mixi</th>
+	</tr>
+      </thead>
+      <tbody>
+	<% committers.each do |attrs| -%>
+	  <tr>
+	    <td>
+	      <% (attrs['portraits'] || []).each do |url| %>
+		<% $stderr.puts "fetching #{url}" %>
+		<% width, height = open(url){|f| ImageSize.new(f.read).get_size } %>
+		<% if height > 100 -%>
+		  <% width, height = (width * 100.0 / height).to_i, 100 %>
+		<% end -%>
+		<img class="portrait" src="<%=url%>" width="<%=width%>" height="<%=height%>" alt="" />
+	      <% end -%>
+	    </td>
+	    <td>
+	      <% (attrs['ruby-books'] || []).each do |isbn| -%>
+		<% title, url = fetch_image(isbn) %>
+		<% if url %>
+		  <img class="book" src="<%=url%>" alt="<%=h title%>" />
+		<% end -%>
+	      <% end -%>
+	    </td>
+	    <td><%=h attrs['account']%></td>
+	    <td>
+	      <% if attrs['name'] -%>
+		<ul>
+		<% attrs['name'].each do |name| -%><li><%=h name %></li><% end %>
+		</ul>
+	      <% end -%>
+	    </td>
+	    <td>
+	      <% if attrs['nick'] -%>
+		<ul>
+		<% attrs['nick'].each do |nick| -%><li><%=h nick %></li><% end %>
+		</ul>
+	      <% end -%>
+	    </td>
+	    <td>
+	      <% if attrs['sites'] -%>
+		<ul>
+		  <% attrs['sites'].each do |site| -%>
+		    <li><a href="<%= site['url'] %>"><%=h site['title'] %></a></li>
+		  <% end -%>
+		</ul>
+	      <% end -%>
+	    </td>
+	    <% 
+	      [
+		[ 'twitter', 'http://twitter.com/' ],
+		[ 'friendfeed', 'http://friendfeed.com/' ],
+		[ 'github', 'http://github.com/' ],
+		[ 'facebook', 'http://www.facebook.com/profile.php?id=' ],
+		[ 'mixi', 'http://mixi.jp/show_friend.pl?id=' ],
+	      ].each do |service, prefix| 
+	    -%>
+	      <% if attrs['services'] and attrs['services'][service] -%>
+		<td><a href="<%=prefix%><%=attrs['services'][service]%>"><%=service%></a></td>
+	      <% else -%>
+		<td></td>
+	      <% end -%>
+	    <% end -%>
+	  </tr>
+	<% end -%>
+      </tbody>
+    </table>
+  </body>
+</html>
+<%# vim: set fileencoding=utf-8 %>
