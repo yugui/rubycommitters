@@ -253,6 +253,8 @@
       url: 'http://blog.grayproductions.net/'
       lang: en
       feed: 'http://blog.grayproductions.net/index.rss'
+  portraits:
+    - 'http://grayproductions.net/images/james_headshot_square.jpg'
   ruby-books:
     - '9780976694076'
   services:
