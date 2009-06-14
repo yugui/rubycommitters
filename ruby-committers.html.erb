@@ -5,8 +5,7 @@
 <% require 'open-uri' -%>
 <% include ERB::Util %>
 <% 
-  $stderr.print 'type your amazon associate id: '
-  key = $stdin.gets.chomp
+  key = YAML.load_file('config.yml')['aws-key']
   configure_ecs key
 %>
 <% committers = YAML.load_file('ruby-committers.yml') -%>
