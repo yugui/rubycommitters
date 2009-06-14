@@ -196,6 +196,7 @@
   sites:
     - url: 'http://jarp.does.notwork.org/'
       lang: ja
+      title: 'Just another Ruby porter,'
     - title: 'Just another Ruby porter,'
       url: 'http://jarp.does.notwork.org/diary/'
       lang: ja
@@ -245,7 +246,7 @@
     - Gavin Sinclair
 - account: jeg2
   name:
-    - James Edward Grey II
+    - James Edward Gray II
   nick:
     - jeg2
   sites:
