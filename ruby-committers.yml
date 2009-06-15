@@ -656,8 +656,9 @@
     - 立石孝彰
     - Takaaki Tateishi
   sites:
-    - url: 'http://www.trl.ibm.com/people/tate/'
-      title: ttate
+    - title: 'Takaaki Tateishi'
+      url: 'http://www.trl.ibm.com/people/tate/'
+    - title: ttate
       url: 'http://ttsky.net/'
     - title: メモ
       url: 'http://log.ttsky.net/'
