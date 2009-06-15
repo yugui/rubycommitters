@@ -312,6 +312,8 @@
     - 武者晶紀
     - Akinori MUSHA
   sites:
+    - title: 'Akinori MUSHA / knu'
+      url: 'http://akinori.org/'
     - title: '工夫と趣向と分別と。'
       url: 'http://d.akinori.org/'
       lang: ja
@@ -321,6 +323,7 @@
   services:
     twitter: knu
     friendfeed: knu
+    github: knu
     mixi: 5906
 - account: ko1
   name:
