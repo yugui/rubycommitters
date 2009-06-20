@@ -47,7 +47,7 @@ xml.rdf:RDF,
         end
       end
       (attrs['ruby-books'] || []).each do |isbn|
-        xml.foaf:made, :'rdf:resource' => "uri:isbn:#{isbn}"
+        xml.foaf:made, :'rdf:resource' => "urn:isbn:#{isbn}"
       end
     end
   end
