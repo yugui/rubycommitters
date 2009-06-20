@@ -518,7 +518,7 @@
     - title: 'Polishing Ruby'
       url: 'http://blog.zenspider.com/'
       feed: 'http://blog.zenspider.com/rss.xml'
-  serivices:
+  services:
     github: zenspider
 - account: seki
   name:
