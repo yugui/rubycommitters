@@ -5,10 +5,16 @@ require 'net/http'
 require 'uri'
 
 def feed_type(url)
+  uri = nil
   loop do
     $stderr.puts "checking #{url}"
     uri = URI.parse(url)
-    res = Net::HTTP.start(uri.host, uri.port || 80) {|conn| conn.head(uri.request_uri) }
+    begin
+      res = Net::HTTP.start(uri.host, uri.port || 80) {|conn| conn.head(uri.request_uri) }
+    rescue
+      warn $!.message + "\n" + $!.backtrace.join("\n")
+      break
+    end
 
     if res.code =~ /^3\d\d$/
       raise res.to_s unless res['location']
@@ -22,20 +28,23 @@ def feed_type(url)
     when 'text/atom', 'text/atom+xml', 'application/atom+xml'
       return 'atom'
     else
-      case File.extname(uri.path)
-      when '.rdf', '.rss'
-        return 'rss'
-      when '.atom'
-        return 'atom'
-      end
-      case File.basename(uri.path)
-      when 'rss.xml', 'rdf.xml'
-        return 'rss'
-      when 'atom.xml'
-        return 'atom'
-      end
-      raise "Unsuitable mime type #{res['content-type']}"
+      break
     end
+  end
+
+  case File.extname(uri.path)
+  when '.rdf', '.rss'
+    return 'rss'
+  when '.atom'
+    return 'atom'
+  end
+  case File.basename(uri.path)
+  when 'rss.xml', 'rdf.xml'
+    return 'rss'
+  when 'atom.xml'
+    return 'atom'
+  else
+    raise "Unsuitable mime type #{res['content-type']}"
   end
 end
 
