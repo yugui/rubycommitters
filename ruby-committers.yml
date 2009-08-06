@@ -93,6 +93,9 @@
     - title: 天泣記
       url: 'http://cvs.m17n.org/~akr/diary/'
       lang: ja
+    - title: "akr's site"
+      url: 'http://www.a-k-r.org/'
+      lang: en
   portraits:
     - 'http://jp.rubyist.net/magazine/?c=plugin;plugin=attach_download;p=0008-Hotlinks;file_name=akr01.jpg'
   services:
