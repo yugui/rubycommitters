@@ -394,11 +394,28 @@
   nick:
     - まめ
     - mame
-  feeds:
+  sites:
     - title: まめめも
       url: 'http://d.hatena.ne.jp/ku-ma-me/'
       lang: ja
       feed: 'http://d.hatena.ne.jp/ku-ma-me/rss'
+- account: marcandre
+  name:
+    - Marc-André Lafortune
+  nick:
+    - marcandre
+    - malafortune
+  sites:
+    - title: '# hash'
+      url: 'http://blog.marc-andre.ca'
+      lang: en
+      feed: 'http://feeds2.feedburner.com/marc-andre/hash'
+  portraits:
+    - 'http://www.gravatar.com/avatar/d4758ccc3cc586f01e740733f3fd8b7e?s=200&d=identicon&r=PG'
+  services:
+    twitter: malafortune
+    github: marcandre
+    facebook: 648811055
 - account: michal
   name:
     - Michal Rokos
@@ -482,6 +499,7 @@
     - Nobuyoshi Nakada
   nick:
     - nobu
+    - n0kada
     - パッチモンスター
     - パチモン
     - The patch monster
@@ -496,6 +514,8 @@
     - 'http://jp.rubyist.net/magazine/?c=plugin;plugin=attach_download;p=0009-Hotlinks;file_name=nakada0.jpg'
   services:
     mixi: 271283
+    friendfeed: n0kada
+    twitter: n0kada
 - account: ntalbott
   name:
     - Nathaniel Talbott
