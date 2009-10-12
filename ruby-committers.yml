@@ -277,6 +277,14 @@
   services:
     twitter: jimweirich
     github: jimweirich
+- account: kanemoto
+  name:
+    - Yutaka KANEMOTO
+  sites:
+    - title: 'きっかけは29216'
+      url: 'http://d.hatena.ne.jp/kinpoco/'
+      feed: 'http://d.hatena.ne.jp/kinpoco/rss'
+      lang: ja
 - account: katsu
   name:
     - うえのかつひろ
@@ -346,7 +354,7 @@
   portraits:
     - 'http://www.ogis-ri.co.jp/otc/hiroba/others/OORing/img/pic38_1.jpg'
   services:
-    twitter: ko1_twitter
+    twitter: _ko1
     mixi: 21711
 - account: kosako
   name:
@@ -399,6 +407,12 @@
       url: 'http://d.hatena.ne.jp/ku-ma-me/'
       lang: ja
       feed: 'http://d.hatena.ne.jp/ku-ma-me/rss'
+    - title: mamememo
+      url: 'http://mamememo.blogspot.com'
+      feed: 'http://mamememo.blogspot.com/feeds/posts/default'
+      lang: en
+  services:
+    - twitter: mametter
 - account: marcandre
   name:
     - Marc-André Lafortune
@@ -485,6 +499,8 @@
     - naruse
     - nurse
   sites:
+    - title: nalsh.jp
+      url: 'http://nalsh.jp'
     - title: ': Airemix :'
       url: 'http://airemix.com'
     - title: はてなるせだいあり
@@ -493,6 +509,8 @@
       feed: 'http://d.hatena.ne.jp/nurse/rss'
   services:
     mixi: 102799
+    twitter: nalsh
+    friendfeed: naruse
 - account: nobu
   name:
     - 中田伸悦
@@ -716,9 +734,13 @@
     - ワナベ
     - wanabe
   sites:
-    - title: 'ワナビーと泣き言'
+    - title: 'ワナビーとたわごと'
       url: 'http://www1.atword.jp/wannabe/'
       feed: 'http://www1.atword.jp/wannabe/feed/'
+      lang: ja
+    - title: "Wanabe's Blog"
+      url: 'http://wannabe53.wordpress.com'
+      feed: 'http://wannabe53.wordpress.com/feed/'
       lang: ja
   services:
     github: wanabe
