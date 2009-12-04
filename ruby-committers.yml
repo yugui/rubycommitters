@@ -689,6 +689,25 @@
     - title: 'Technorama Ltd. - Home'
       url: 'http://www.technorama.net/'
       lang: en
+- account: tenderlove
+  name:
+    - Aaron Patterson
+  nick:
+    - aaron
+    - tenderlove
+    - ひげの山男
+  portraits:
+    - 'http://farm1.static.flickr.com/155/360075889_8c555ab1c9_m.jpg'
+  sites:
+    - title: Tender Lovemaking
+      url: 'http://tenderlovemaking.com/'
+      feed: 'http://tenderlovemaking.com/feed/atom/'
+      lang: en
+  services:
+    twitter: tenderlove
+    facebook: tenderlove
+    mixi: 13683140
+    github: tenderlove
 - account: ts
   name:
     - Guy Decoux
