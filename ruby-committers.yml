@@ -356,6 +356,28 @@
   services:
     twitter: _ko1
     mixi: 21711
+- account: kosaki
+  name:
+    - 小崎資広
+    - KOSAKI Motohiro
+  nick:
+    - kosaki
+  sites:
+    - title: 革命の日々！
+      url: 'http://mkosaki.blog46.fc2.com'
+      feed: 'http://feeds.fc2.com/fc2/xml?host=mkosaki.blog46'
+      lang: ja
+    - title: kosakiの日記
+      url: 'http://d.hatena.ne.jp/kosaki/'
+      feed: 'http://d.hatena.ne.jp/kosaki/rss'
+      lang: ja
+  portraits:
+    - 'http://japan.zdnet.com/story_media/20390054/090317tomoyo-linux_ozaki_200x281.jpg'
+  services:
+    twitter: kosaki55tea
+    friendfeed: kosaki
+    github: kosaki
+    facebook: 1353311811
 - account: kosako
   name:
     - 小迫清美
@@ -446,6 +468,32 @@
       feed: 'http://www.ntecs.de/blog/index.rdf'
   services:
     github: mneumann
+- account: mrkn
+  name:
+  nick:
+    - mrkn
+    - むらけん
+  sites:
+    - title: ドレッシングのような
+      url: 'http://d.hatena.ne.jp/mrkn/'
+      feed: 'http://d.hatena.ne.jp/mrkn/rss'
+      lang: ja
+    - title: MRKN
+      url: 'http://mrkn20.tumblr.com/rss'
+      feed: 'http://mrkn20.tumblr.com/rss'
+      lang: 'ja'
+    - title: Anything
+      url: 'http://blog.mrkn.jp'
+      feed: 'http://blog.mrkn.jp/feeds/posts/default'
+      lang: en
+  portraits:
+    - 'http://iddy.jp/userphoto/cca9444e87ff0fb035541cc290345e79ea424f96/mrkn-by-takai-96x96s.jpg'
+  services:
+    twitter: mrkn
+    friendfeed: mrkn
+    facebook: 1408914688
+    github: mrkn
+    mixi: 90794
 - account: nagai
   name:
     - 永井秀利
@@ -682,6 +730,22 @@
   sites:
     - title: 'hebdomeros'
       url: 'http://www.funaba.org/'
+- account: tarui
+  name: 
+    - 樽家昌也
+    - Masaya TARUI
+  nick:
+    - tal
+    - taru
+    - taruru
+    - tarui
+  sites:
+    - title: tarte記録
+      url: 'http://d.hatena.ne.jp/tarte/'
+      feed: 'http://d.hatena.ne.jp/tarte/rss'
+      lang: ja
+  services:
+    twitter: taru
 - account: technorama
   name:
     - Technorama Ltd.
@@ -763,6 +827,7 @@
       lang: ja
   services:
     github: wanabe
+    twitter: wannabe53
 - account: wakou
   name:
     - Wakou Aoyama
