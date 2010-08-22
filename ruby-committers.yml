@@ -100,6 +100,7 @@
     - 'http://jp.rubyist.net/magazine/?c=plugin;plugin=attach_download;p=0008-Hotlinks;file_name=akr01.jpg'
   services:
     github: akr
+    twitter: tanaka_akr
 - account: arai
   name:
     - 新井康司
@@ -400,6 +401,8 @@
     - 'http://www.ogis-ri.co.jp/otc/hiroba/others/OORing/img/pic39_1.jpg'
   ruby-books:
     - '9784274065002'
+  services:
+    twitter: ktou
 - account: kouji
   name:
     - 高尾宏治
