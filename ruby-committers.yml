@@ -108,6 +108,10 @@
 - account: azav
   name:
     - Alexander Zavorine
+  portraits:
+    - 'http://a3.twimg.com/profile_images/677575595/photo.jpg'
+  services:
+    twitter: alzavorine
 - account: dave
   name:
     - Dave Thomas
