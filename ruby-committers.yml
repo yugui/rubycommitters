@@ -105,6 +105,33 @@
   name:
     - 新井康司
     - Koji Arai
+- account: arton
+  name:
+    - 田島あきお
+  nick:
+    - arton
+  portraits:
+    - 'http://jp.rubyist.net/magazine/?c=plugin;plugin=attach_download;p=0015-Hotlinks;file_name=arton0.jpg'
+    - 'http://www.ogis-ri.co.jp/otc/hiroba/others/OORing/img/pic41_1.jpg'
+  sites:
+    - title: 'EMMÈNE-MOI AU BOUT DU MONDE'
+      url: 'http://www.artonx.org/'
+      lang: en
+    - title: "L'eclat des jours"
+      url: 'http://www.artonx.org/diary/'
+      feed: 'http://www.artonx.org/diary/index.rdf'
+      lang: ja
+    - title: 'COM Meets Ruby'
+      url: 'http://arton.hp.infoseek.co.jp'
+      lang: en
+    - title: 'COM Meets Ruby'
+      url: 'http://www.geocities.co.jp/SiliconValley-PaloAlto/9251/'
+      lang: ja
+  services:
+    twitter: arton
+    friendfeed: arton
+    mixi: 14049
+    github: arton
 - account: azav
   name:
     - Alexander Zavorine
@@ -477,6 +504,8 @@
     github: mneumann
 - account: mrkn
   name:
+    - 村田 賢太
+    - Kenta MURATA
   nick:
     - mrkn
     - むらけん
@@ -514,6 +543,7 @@
     - '9784756139931'
 - account: nahi
   name:
+    - 中村浩士
     - NAKAMURA, Hiroshi
   nick:
     - なひ
