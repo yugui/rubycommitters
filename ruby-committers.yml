@@ -754,9 +754,11 @@
   services:
     twitter: takano32
     friendfeed: takano32
-    facebook: 1077578262
+    facebook: takano32
     mixi: 1233682
     github: takano32
+  portraits: 
+    - 'http://www.atmarkit.co.jp/news/200909/07/takano.jpg'
 - account: tadf
   name:
     - 舟迫忠佳
