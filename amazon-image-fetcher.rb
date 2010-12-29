@@ -5,7 +5,7 @@ rescue LoadError
   # nothing to do
 end
 require 'amazon/ecs'
-require 'isbn' # http://github.com/k16shikano/isbn.rb
+require './isbn' # http://github.com/k16shikano/isbn.rb
 
 def configure_ecs(key) 
   Amazon::Ecs.configure do |config|
