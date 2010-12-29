@@ -7,9 +7,10 @@ end
 require 'amazon/ecs'
 require './isbn' # http://github.com/k16shikano/isbn.rb
 
-def configure_ecs(key) 
+def configure_ecs(key, secret) 
   Amazon::Ecs.configure do |config|
     config[:aWS_access_key_id] = [ key ]
+    config[:aWS_secret_key] = secret
     config[:country] = :jp
   end
 end
