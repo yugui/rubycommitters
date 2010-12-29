@@ -451,6 +451,23 @@
 - account: ksaito
   name:
     - Kazuo Saito
+- account: luislavena
+  name:
+    - Luis Lavena
+  nick:
+    - luislavena
+  sites:
+    - title: DEV_MEM.dump_to(:blog)
+      url: 'http://blog.mmediasys.com'
+      lang: en
+      feed: 'http://blog.mmediasys.com/feed/'
+  services:
+    twitter: luislavena
+    facebook: luislavena
+    github: luislavena
+  portraits:
+    - 'http://a0.twimg.com/profile_images/62596265/IMG_0231_CROP.png'
+    - 'https://secure.gravatar.com/avatar/e7cff3cfd41c495e1012227d7dc24202?s=200'
 - account: mame
   name:
     - 遠藤侑介
@@ -799,6 +816,8 @@
     - aaron
     - tenderlove
     - ひげの山男
+    - たこ焼き仮面
+    - Takoyaki mask
   portraits:
     - 'http://farm1.static.flickr.com/155/360075889_8c555ab1c9_m.jpg'
   sites:
