@@ -468,7 +468,7 @@
       feed: 'http://mamememo.blogspot.com/feeds/posts/default'
       lang: en
   services:
-    - twitter: mametter
+    twitter: mametter
 - account: marcandre
   name:
     - Marc-André Lafortune
