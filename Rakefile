@@ -10,7 +10,7 @@ targets = %w[ ruby-committers/ruby-committers.html ruby-committers/ruby-committe
 task :default => :generate
 task :generate => targets
 task :archive => :generate do
-  sh "tar czf ruby-committers.tar.gz ruby-committers"
+  sh "tar czf ruby-committers.tar.gz --exclude ruby-committers/.svn ruby-committers"
 end
 task :clean do
   FileUtils.rm_f targets
