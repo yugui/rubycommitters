@@ -136,7 +136,7 @@
   name:
     - Alexander Zavorine
   portraits:
-    - 'http://a3.twimg.com/profile_images/677575595/photo.jpg'
+    - 'http://a0.twimg.com/profile_images/1119678926/tweeter-photo-1.jpg'
   services:
     twitter: alzavorine
 - account: dave
@@ -305,7 +305,8 @@
       lang: en
       feed: 'http://onestepback.org/index.cgi/index.rss'
   portraits:
-    - 'http://edgecase.com/images/people/jim_weirich.jpg'
+    - 'http://2009.larubyconf.com/images/speakers/jim-weirich.jpg'
+    - 'http://a2.twimg.com/profile_images/984421290/IMG_0155_reasonably_small.JPG'
   services:
     twitter: jimweirich
     github: jimweirich
@@ -362,7 +363,7 @@
       lang: ja
       feed: 'http://d.akinori.org/index.rdf'
   portraits:
-    - 'http://s3.amazonaws.com/twitter_production/profile_images/88205351/akinori_icon_bigger.jpg'
+    - 'http://m.friendfeed-media.com/p-e589cafafb2311dcaa19003048343a40-large-1005'
   services:
     twitter: knu
     friendfeed: knu
@@ -461,13 +462,16 @@
       url: 'http://blog.mmediasys.com'
       lang: en
       feed: 'http://blog.mmediasys.com/feed/'
+    - title: RubyInstaller
+      url: 'http://rubyinstaller.org'
+      lang: en
   services:
     twitter: luislavena
     facebook: luislavena
     github: luislavena
   portraits:
     - 'http://a0.twimg.com/profile_images/62596265/IMG_0231_CROP.png'
-    - 'https://secure.gravatar.com/avatar/e7cff3cfd41c495e1012227d7dc24202?s=200'
+    - 'http://www.gravatar.com/avatar/e7cff3cfd41c495e1012227d7dc24202?s=200'
 - account: mame
   name:
     - 遠藤侑介
@@ -905,22 +909,11 @@
     - why
     - _why
   sites:
-    - title: 'hackety org'
-      url: 'http://hackety.org/'
-      feed: 'http://feeds.feedburner.com/HacketyOrg'
+    - title: "_why's Estate"
+      url: 'http://viewsourcecode.org/why/'
       lang: en
-    - title: '.c( whytheluckystiff )o.'
-      url: 'http://whytheluckystiff.net/'
-      feed: 'http://www.whytheluckystiff.net/why.xml'
-      lang: en
-    - title: 'RedHanded'
-      url: 'http://redhanded.hobix.com/'
-      feed: 'http://redhanded.hobix.com/index.xml'
-      lang: en
-    - title: '(.~) what a quiet stiff (~.)'
-      url: 'http://whytheluckystiff.net/quiet/'
-      feed: 'http://www.whytheluckystiff.net/quiet/quiet.xml'
-      lang: en
+    - title: 'why the lucky stiff'
+      url: 'http://en.wikipedia.org/wiki/Why_the_lucky_stiff'
   portraits:
     - 'http://upload.wikimedia.org/wikipedia/commons/5/51/Whytheluckystiff.jpg'
   services:
