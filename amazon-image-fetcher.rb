@@ -1,17 +1,11 @@
-begin
-  require 'rubygems'
-  gem 'amazon-ecs'
-rescue LoadError
-  # nothing to do
-end
 require 'amazon/ecs'
 require './isbn' # http://github.com/k16shikano/isbn.rb
 
-def configure_ecs(key, secret) 
+def configure_ecs(key, secret, country = :jp) 
   Amazon::Ecs.configure do |config|
-    config[:aWS_access_key_id] = [ key ]
+    config[:aWS_access_key_id] = key
     config[:aWS_secret_key] = secret
-    config[:country] = :jp
+    config[:country] = country
   end
 end
 
