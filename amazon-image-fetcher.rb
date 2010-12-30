@@ -1,5 +1,5 @@
 require 'amazon/ecs'
-require './isbn' # http://github.com/k16shikano/isbn.rb
+require 'isbn' # http://github.com/k16shikano/isbn.rb
 
 def configure_ecs(key, secret, country = :jp) 
   Amazon::Ecs.configure do |config|
