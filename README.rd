@@ -5,31 +5,35 @@ The list shows you who's who.
 
 Many contributions made Ruby what now Ruby is. The honor of contribution for Ruby is not only the committers's. But it is sure that the committers are worth people to follow their activities. Follow them on twitter. Subscribe their blogs.
 
-== Prerequisites
-* Ruby 1.9 for generators
-* for the HTML generator
-  * your amazon associate id. Write config.yml as
-     aws-key: "YOUR ASSOCIATE ID"
-  * k16shikano's isbn.rb (http://github.com/k16shikano/isbn.rb )
-  * amazon-ecs gem
-  * image_size gem
-* for the RDF generator
-  * builder gem
-* for the OPML generator
-  * nokogiri gem
+== How to use
+ruby-committers.yml is written in YAML. You can use it with any YAML processor.
+
+You can generate OPML, FOAF and HTML version of the list with the bundled generators.
+(1) write config.yml like:
+     aws-key: <Your Amazon Webservice Key here>
+     secret-key: <Your secret key here>
+(2) install Ruby 1.9.2 or later
+(3) install bundler
+     gem install bundler
+(4) install gems like:
+     bundle install --path .bundle/gems
+(5) run generators:
+     bundle exec rake
 
 == Copyright and License
 === ruby-committers.yml 
 This list was originally written by Yugui (Yuki Sonoda).  It is a list of facts so none has the copyright for it. It is in the public domain.
 
 === Generators
+* Gemfile
 * Rakefile
 * opml-generator.rb
 * rdf-generator.rb
 * ruby-committers.html.erb
-The generators were originally developed by Yugui (Yuki Sonoda) on 2009.
+The generators were originally developed by Yugui (Yuki Sonoda) on 2009-2010.
 
-They are distributed under CC Attribution license (http://creativecommons.org/licenses/by/2.1/jp/).
+They are distributed under Creative Commons Attribution 3.0 Unported License.
+* http://creativecommons.org/licenses/by/3.0/
 
 === External resources
 Most of resources referenced by the list have their own copyright holder.

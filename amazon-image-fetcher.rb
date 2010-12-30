@@ -1,4 +1,7 @@
 require 'amazon/ecs'
+if path = $:.find{|path| path =~ %r[isbn.rb-\h+/lib]}
+  $: << File.dirname(path) # hack with bundler
+end
 require 'isbn' # http://github.com/k16shikano/isbn.rb
 
 def configure_ecs(key, secret, country = :jp) 
