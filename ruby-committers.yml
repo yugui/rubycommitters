@@ -490,6 +490,8 @@
       lang: en
   services:
     twitter: mametter
+  portraits:
+    - 'http://dame.dyndns.org/misc/misc/mame2.png'
 - account: marcandre
   name:
     - Marc-André Lafortune
