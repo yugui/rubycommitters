@@ -748,6 +748,30 @@
       feed: 'http://d.hatena.ne.jp/nsiena/rss'
   services:
     twitter: nsiena
+- account: sorah
+  name:
+    - 福森匠大
+    - Shota Fukumori
+  nick:
+    - sora_h
+    - sora
+  sites:
+    - title: Shota Fukumori (sora_h)
+      url: 'http://sorah.cosmio.net'
+      lang: en
+    - title: a junk
+      url: 'http://ajunk.org'
+      lang: en, ja
+    - title: cod.note
+      url: 'http://codnote.net'
+      lang: ja
+      feed: 'http://codnote.net/feed/'
+  services:
+    twitter: sora_h
+    facebook: 710749930
+    github: sorah 
+  portraits:
+    - 'http://dl.dropbox.com/u/261861/img/headshot.png'
 - account: suke
   name:
     - 助田雅紀
