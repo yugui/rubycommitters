@@ -752,7 +752,6 @@
     twitter: nsiena
 - account: sorah
   name:
-    - 福森匠大
     - Shota Fukumori
   nick:
     - sora_h
@@ -766,7 +765,7 @@
       lang: en, ja
     - title: cod.note
       url: 'http://codnote.net'
-      lang: ja
+      lang: en, ja
       feed: 'http://codnote.net/feed/'
   services:
     twitter: sora_h
