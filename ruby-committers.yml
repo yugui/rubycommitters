@@ -452,6 +452,20 @@
 - account: ksaito
   name:
     - Kazuo Saito
+- account: ktsj
+  name:
+    - 辻本和樹
+    - Kazuki Tsujimoto
+  sites:
+    - title: '継続にっき'
+      url: 'http://www.callcc.net/diary/'
+      lang: ja
+      feed: 'http://www.callcc.net/diary/index.rdf'
+  portraits:
+    - 'http://www.gravatar.com/avatar/303dd57f37d64288bb4f0336332a8882.png'
+  services:
+    twitter: k_tsj
+    github: k-tsj
 - account: luislavena
   name:
     - Luis Lavena
