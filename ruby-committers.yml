@@ -16,6 +16,7 @@
     facebook: 650036336
     mixi: 1653
     github: matz
+    google: 104511308184997405918
   portraits: 
     - 'http://upload.wikimedia.org/wikipedia/commons/7/76/Yukihiro_Matsumoto.JPG'
   ruby-books:
@@ -74,6 +75,7 @@
     friendfeed: arika
     iddy: arika
     mixi: 1549
+    google: 118268804931300846351
   ruby-books:
     - '9784274064616'
     - '9784900813250'
@@ -107,7 +109,8 @@
     - Koji Arai
 - account: arton
   name:
-    - 田島あきお
+    - 田島暁雄
+    - Akio Tajima
   nick:
     - arton
   portraits:
@@ -132,6 +135,8 @@
     friendfeed: arton
     mixi: 14049
     github: arton
+    facebook: akio.tajima
+    google: 104500176666894445400
 - account: azav
   name:
     - Alexander Zavorine
@@ -154,6 +159,7 @@
   services:
     twitter: pragdave
     github: pragdave
+    google: 110308012753237149122
   ruby-books:
     - '9781934356081'
     - '9781934356166'
@@ -207,6 +213,7 @@
     twitter: drbrain
     facebook: 564481279
     github: drbrain
+    google: 113229407566879480853
 - account: duerst
   name:
     - Martin J. Dürst
@@ -240,6 +247,7 @@
     github: eban
     twitter: eban
     friendfeed: eban
+    google: 108418156943781140634
 - account: gotoken
   name:
     - 後藤謙太郎
@@ -310,6 +318,7 @@
   services:
     twitter: jimweirich
     github: jimweirich
+    google: 110460163480277199414
 - account: kanemoto
   name:
     - Yutaka KANEMOTO
@@ -343,6 +352,7 @@
   services:
     twitter: znz
     github: znz
+    google: 116753324956247178702
 - account: keiju 
   name:
     - 石塚圭樹
@@ -369,6 +379,7 @@
     friendfeed: knu
     github: knu
     mixi: 5906
+    google: 108878246803331852253
 - account: ko1
   name:
     - 笹田耕一
@@ -411,6 +422,7 @@
     friendfeed: kosaki
     github: kosaki
     facebook: 1353311811
+    google: 113301538411990519144
 - account: kosako
   name:
     - 小迫清美
@@ -435,6 +447,7 @@
     - '9784274065002'
   services:
     twitter: ktou
+    google: 109659312087155549351
 - account: kouji
   name:
     - 高尾宏治
@@ -483,6 +496,7 @@
     twitter: luislavena
     facebook: luislavena
     github: luislavena
+    google: 112486488668073241617
   portraits:
     - 'http://a0.twimg.com/profile_images/62596265/IMG_0231_CROP.png'
     - 'http://www.gravatar.com/avatar/e7cff3cfd41c495e1012227d7dc24202?s=200'
@@ -504,6 +518,7 @@
       lang: en
   services:
     twitter: mametter
+    google: 113620476275587917063
   portraits:
     - 'http://dame.dyndns.org/misc/misc/mame2.png'
 - account: marcandre
@@ -567,6 +582,7 @@
     facebook: 1408914688
     github: mrkn
     mixi: 90794
+    google: 116374388189354104106
 - account: nagai
   name:
     - 永井秀利
@@ -595,6 +611,7 @@
     twitter: nahi
     friendfeed: nahi
     github: nahi
+    google: 115625967573239196767
 - account: nari
   name:
     - 中村成洋
@@ -632,6 +649,7 @@
     mixi: 102799
     twitter: nalsh
     friendfeed: naruse
+    google: 116016815634254413806
 - account: nobu
   name:
     - 中田伸悦
@@ -682,6 +700,8 @@
       feed: 'http://blog.zenspider.com/rss.xml'
   services:
     github: zenspider
+    facebook: zenspider
+    google: 117890682890497769422
 - account: seki
   name:
     - 関将俊
@@ -699,6 +719,7 @@
     - '9784274066092'
   services:
     mixi: 1566
+    google: 103328050644570295448
 - account: ser
   name:
     - Sean Russell
@@ -733,6 +754,7 @@
     mixi: 1672
     twitter: shugomaeda
     friendfeed: shugomaeda
+    google: 117230883599260590395
 - account: shyouhei
   name:
     - 卜部昌平
@@ -750,6 +772,7 @@
     twitter: shyouhei
     mixi: 22533
     github: shyouhei
+    google: 114316253275409329707
 - account: siena
   nick:
     - しーな
@@ -785,6 +808,7 @@
     twitter: sora_h
     facebook: 710749930
     github: sorah 
+    google: 110739055786952226237
   portraits:
     - 'http://dl.dropbox.com/u/261861/img/headshot.png'
 - account: suke
@@ -816,6 +840,7 @@
     facebook: takano32
     mixi: 1233682
     github: takano32
+    google: 112648168967537398795
   portraits: 
     - 'http://www.atmarkit.co.jp/news/200909/07/takano.jpg'
 - account: tadf
@@ -844,6 +869,7 @@
       lang: ja
   services:
     twitter: taru
+    google: 114409948025099087730
 - account: technorama
   name:
     - Technorama Ltd.
@@ -872,6 +898,7 @@
     facebook: tenderlove
     mixi: 13683140
     github: tenderlove
+    google: 117847179642773850013
 - account: ts
   name:
     - Guy Decoux
@@ -912,6 +939,7 @@
     friendfeed: unak
     mixi: 1030657
     github: unak
+    google: 103794861829604167718
 - account: wanabe
   nick:
     - ワナベ
@@ -1001,6 +1029,7 @@
     github: yugui
     mixi: 1705181
     facebook: 665074729
+    google: 113187117752842431448
   ruby-books:
     - '9784873113678'
 - account: zsombor
