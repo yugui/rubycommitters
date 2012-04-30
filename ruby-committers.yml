@@ -137,6 +137,19 @@
     github: arton
     facebook: akio.tajima
     google: 104500176666894445400
+- account: ayumin
+  name:
+    - 相澤歩
+    - Ayumu AIZAWA
+  nick:
+    - ayumin
+    - あゆみん
+  portraits:
+    - 'http://www.gravatar.com/avatar/2e9a2dbe335e0111e4879a9d65dcbae0.png'
+  services:
+    facebook: ayumu.aizawa
+    github: ayumin
+    twitter: ayumin
 - account: azav
   name:
     - Alexander Zavorine
@@ -712,6 +725,17 @@
     - title: '咳のページ'
       url: 'http://www2a.biglobe.ne.jp/~seki/'
       lang: 'ja'
+    - title: 'D is for distributed'
+      url: 'http://www.druby.org'
+      lang: 'ja'
+    - title: 'I like Ruby too.'
+      url: 'http://d.hatena.ne.jp/m_seki'
+      feed: 'http://d.hatena.ne.jp/m_seki/rss'
+      lang: 'ja'
+    - title: '+b'
+      url: 'http://d.hatena.ne.jp/m_seki+b'
+      feed: 'http://d.hatena.ne.jp/m_seki+b/rss'
+      lang: 'ja'
   portraits:
     - 'http://www.ogis-ri.co.jp/otc/hiroba/others/OORing/img/pic40_2.jpg'
   ruby-books:
@@ -823,6 +847,8 @@
       url: 'http://suke.cocolog-nifty.com/blog/'
       lang: ja
       feed: 'http://suke.cocolog-nifty.com/blog/index.rdf'
+  services:
+    twitter: m_suketa
   ruby-books:
     - '9784756136879'
 - account: takano32
