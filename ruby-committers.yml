@@ -261,6 +261,14 @@
     twitter: eban
     friendfeed: eban
     google: 108418156943781140634
+- account: eregon
+  name:
+    - Benoit Daloze
+  portraits:
+    - 'http://eregon.me/ruby/portrait.jpg'
+  services:
+    github: eregon
+    twitter: eregontp
 - account: gotoken
   name:
     - 後藤謙太郎
