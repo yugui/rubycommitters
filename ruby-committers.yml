@@ -782,6 +782,18 @@
     friendfeed: nahi
     github: nahi
     google: 115625967573239196767
+- account: ngoto
+  name:
+    - 後藤直久
+    - Naohisa Goto
+  sites:
+    - title: '後藤直久のページ'
+      url: 'http://www.gen-info.osaka-u.ac.jp/~ngoto/'
+      lang: ja
+  services:
+    twitter: ngotogenome
+    github: ngoto
+    google: 100765003726045594572
 - account: nari
   name:
     - 中村成洋
