@@ -319,6 +319,24 @@
     twitter: evanphx
     github: evanphx
     google: 102658220803785626644
+- account: glass
+  name:
+    - Masaki Matsushita
+  nick:
+    - Glass_saga
+  sites:
+    - title: 'Glass_saga'
+      url: 'http://glasssaga.dip.jp/'
+      lang: ja
+    - title: 'Glass_saga'
+      url: 'http://d.hatena.ne.jp/Glass_saga/'
+      lang: ja
+      feed: 'http://d.hatena.ne.jp/Glass_saga/rss'
+  services:
+    twitter: Glass_saga
+    github: Glasssaga
+    google: 117527526156424280526
+    facebook: masaki.matsushita
 - account: gotoken
   name:
     - 後藤謙太郎
