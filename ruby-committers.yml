@@ -304,6 +304,21 @@
   services:
     github: eregon
     twitter: eregontp
+- account: evan
+  name:
+    - Evan Phoenix
+  sites:
+    - title: 'evan.musing << current'
+      url: 'http://blog.fallingsnow.net/'
+      lang: en
+      feed: 'http://blog.fallingsnow.net/feed/'
+  portraits:
+    - 'https://secure.gravatar.com/avatar/540cb3b3712ffe045113cb03bab616a2?s=400'
+  services:
+    facebook: evanphx
+    twitter: evanphx
+    github: evanphx
+    google: 102658220803785626644
 - account: gotoken
   name:
     - 後藤謙太郎
