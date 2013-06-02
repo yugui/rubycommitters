@@ -732,6 +732,27 @@
     github: mrkn
     mixi: 90794
     google: 116374388189354104106
+- account: nagachika
+  name:
+    - 近永智之
+    - Tomoyuki Chikanaga
+  nick:
+    - nagachika
+  sites:
+    - title: 'PB memo'
+      url: 'http://d.hatena.ne.jp/nagachika/'
+      lang: ja
+      feed: 'http://d.hatena.ne.jp/nagachika/rss'
+    - title: 'Primitive Broth'
+      url: 'http://rucila.s43.xrea.com/PB/'
+      lang: ja
+  services:
+    google: 112418348753906123431
+    github: nagachika
+    twitter: nagachika
+    facebook: 'tomoyuki.chikanaga'
+  portraits:
+    - 'http://magazine.rubyist.net/?c=plugin;plugin=attach_download;p=0039-MinatoRubyKaigi01Report;file_name=nagachika.jpg'
 - account: nagai
   name:
     - 永井秀利
