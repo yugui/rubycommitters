@@ -869,6 +869,18 @@
 - account: ocean
   name:
     - Hirokazu Yamamoto
+- account: okkez
+  nick:
+    - okkez
+  sites:
+    - title: 'Under constructing!'
+      url: 'http://typo.okkez.net/'
+      lang: en
+  portraits:
+    - 'http://magazine.rubyist.net/?c=plugin;plugin=attach_download;p=0030-Hotlinks;file_name=okkez01.jpg'
+  services:
+    twitter: okkez
+    github: okkez
 - account: ryan
   name:
     - Ryan Davis
