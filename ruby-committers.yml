@@ -376,6 +376,26 @@
 - account: gsinclair
   name:
     - Gavin Sinclair
+- account: headius
+  name:
+    - Charles Oliver Nutter
+  nick:
+    - headius
+  sites:
+    - title: Headius
+      url: 'http://blog.headius.com/'
+      lang: en
+      feed: 'http://blog.headius.com/feeds/posts/default'
+  portraits:
+    - 'http://softwaregr.org/wp-content/uploads/2010/03/nutter.jpg'
+    - 'https://si0.twimg.com/profile_images/409585603/charles.jpg'
+  ruby-books:
+    - '9781934356654'
+  services:
+    google: 101599370339210456684
+    twitter: headius
+    gihtub: headius
+    facebook: headius
 - account: jeg2
   name:
     - James Edward Gray II
