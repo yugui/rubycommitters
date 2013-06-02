@@ -275,6 +275,27 @@
     twitter: eban
     friendfeed: eban
     google: 108418156943781140634
+- account: emboss
+  name:
+    - Martin Boßlet
+  nick:
+    - emboss
+  sites:
+    - title: Martin Boßlet
+      url: 'http://emboss.github.io/de/'
+      lang: de
+    - title: Martin Boßlet
+      url: 'http://emboss.github.io/en/'
+      lang: en
+    - title: 'Blog Archive - Martin Boßlet'
+      url: 'http://emboss.github.io/blog/archives/'
+      lang: en
+      feed: 'http://emboss.github.io/atom.xml'
+  portraits:
+    - 'http://emboss.github.io/images/me.jpg'
+  services:
+    twitter: _emboss_
+    github: emboss
 - account: eregon
   name:
     - Benoit Daloze
