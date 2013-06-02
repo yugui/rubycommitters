@@ -414,6 +414,26 @@
     github: hsbt
     facebook: shibata.hiroshi
     google: 112081278845276361745
+- account: iwamatsu
+  name:
+    - 岩松信洋
+    - Nobuhiro Iwamatsu
+  sites:
+    - title: 'Nobuhiro Iwamatsu home page'
+      url: 'http://www.nigauri.org/~iwamatsu/'
+      lang: en
+    - title: '毎日が反省会'
+      url: 'http://www.nigauri.org/~iwamatsu/d/'
+      lang: ja
+      feed: 'http://www.nigauri.org/~iwamatsu/d/index.rdf'
+  portraits:
+    - 'https://secure.gravatar.com/avatar/1cc1edaac4baeabf9cfe4a81c3d85825?s=200'
+  services:
+    twitter: iwamatsu
+    github: iwamatsu
+    facebook: nobuhiro.iwamatsu.3
+    google: 117238843562417038207
+    mixi: 105898
 - account: jeg2
   name:
     - James Edward Gray II
