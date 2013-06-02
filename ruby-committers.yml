@@ -396,6 +396,24 @@
     twitter: headius
     gihtub: headius
     facebook: headius
+- account: hsbt
+  name:
+    - 柴田博志
+    - SHIBATA Hiroshi
+  nick:
+    - hsbt
+  sites:
+    - title: 'HsbtDiary'
+      url: 'http://www.hsbt.org/diary/'
+      lang: ja
+      feed: 'http://www.hsbt.org/diary/index.rdf'
+  portraits:
+    - 'https://si0.twimg.com/profile_images/1759902618/profile1_300.png'
+  services:
+    twitter: hsbt
+    github: hsbt
+    facebook: shibata.hiroshi
+    google: 112081278845276361745
 - account: jeg2
   name:
     - James Edward Gray II
