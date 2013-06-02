@@ -157,6 +157,20 @@
     - 'http://a0.twimg.com/profile_images/1119678926/tweeter-photo-1.jpg'
   services:
     twitter: alzavorine
+- account: charliesome
+  name:
+    - Charlie Somerville
+  sites:
+    - title: 'Charlie Somerville'
+      url: 'http://charlie.bz/'
+      lang: en
+    - title: 'Blog - Charlie Somerville'
+      url: 'http://charlie.bz/blog'
+      lang: en
+      feed: 'http://charlie.bz/blog.rss'
+  services:
+    twitter: charliesome
+    github: charliesome
 - account: dave
   name:
     - Dave Thomas
