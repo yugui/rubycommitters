@@ -52,6 +52,7 @@
 	      <% (attrs['portraits'] || []).each do |url| %>
 		<% $stderr.puts "fetching #{url}" %>
 		<% width, height = open(url){|f| ImageSize.new(f.read).get_size } %>
+		<% raise "No data from #{url}" if width.nil? or height.nil? -%>
 		<% if height > 100 -%>
 		  <% width, height = (width * 100.0 / height).to_i, 100 %>
 		<% end -%>
