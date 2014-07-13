@@ -940,6 +940,11 @@
     - title: 'Office Kobayashi'
       url: 'http://www.tinyforest.gr.jp/'
       lang: ja
+- account: shirosaki
+  name:
+    - Hiroshi Shirosaki
+  services:
+    twitter: shirosaki
 - account: shugo
   name:
     - 前田修吾
