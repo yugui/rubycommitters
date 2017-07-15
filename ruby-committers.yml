@@ -555,6 +555,7 @@
     - kosaki
     - がちゃぴん先生
     - メイド卿
+    - どんかん
     - The green monster
   sites:
     - title: 革命の日々！
@@ -564,6 +565,9 @@
     - title: kosakiの日記
       url: 'http://d.hatena.ne.jp/kosaki/'
       feed: 'http://d.hatena.ne.jp/kosaki/rss'
+      lang: ja
+    - title: どんかん
+      url: https://twitter.com/kosaki55tea/status/868860389802377217
       lang: ja
   portraits:
     - 'http://japan.zdnet.com/story_media/20390054/090317tomoyo-linux_ozaki_200x281.jpg'
